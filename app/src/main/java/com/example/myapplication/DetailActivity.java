@@ -29,9 +29,9 @@ public class DetailActivity extends AppCompatActivity {
         double mRating = bundle.getDouble("rating");
 
         Glide.with(this).load(mPoster).into(imageView);
-        rating_tv.setText(Double.toString(mRating));
-        title_tv.setText(mTitle);
-        overview_tv.setText(mOverView);
+        rating_tv.setText("Rating: " + Double.toString(mRating));
+        title_tv.setText("Title: " + mTitle);
+        overview_tv.setText("Description: ".toUpperCase() + mOverView);
 
 
     }
