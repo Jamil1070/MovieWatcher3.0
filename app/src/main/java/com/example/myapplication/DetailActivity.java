@@ -30,8 +30,8 @@ public class DetailActivity extends AppCompatActivity {
 
         Glide.with(this).load(mPoster).into(imageView);
         rating_tv.setText("Rating: " + Double.toString(mRating));
-        title_tv.setText("Title: " + mTitle);
-        overview_tv.setText("Description: ".toUpperCase() + mOverView);
+        title_tv.setText("Title:  " + mTitle);
+        overview_tv.setText("Description:  ".toUpperCase() + mOverView);
 
 
     }
