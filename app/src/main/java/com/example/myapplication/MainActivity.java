@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void fetchMovies() {
 
-        String url = "https://api.npoint.io/2ea4fcf39a806a4b0996";
+        String url = "https://api.npoint.io/95be87af7dab2058f17d";
 
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONArray>() {
