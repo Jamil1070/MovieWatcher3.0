@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey;
 @Entity
 public class Movie {
 
-    @PrimaryKey(autoGenerate = true)
+@PrimaryKey(autoGenerate = true)
     public int id;
     private String title , poster , overview;
     private Double rating;
