@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
                 if (savedMovies != null && !savedMovies.isEmpty()) {
                     // Log or display the saved movies
                     for (Movie movie : savedMovies) {
-                        Log.d("MainActivity", "Saved Movie: " + movie.getTitle());
+                        Log.d("MainActivity", "Saved Movie : " + movie.getTitle());
                     }
                 }
             }
